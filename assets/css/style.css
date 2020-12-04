@@ -1,0 +1,1432 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+
+
+Template Name: Startupr - HTML Template
+Template URL: http://coderitsoltion.com
+Author: Sohanur Rahman Sohag
+Author URI: http://coderitsoltion.com
+Description:STARTUPR HTML Template
+Keywords: html,css,js
+
+*/
+
+ 	  /************************/
+	 /******* Main CSS *******/
+	/************************/
+
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	overflow-x:hidden; 
+}
+ul{
+ 	list-style:none;
+ 	padding: 0;
+ 	margin: 0;
+}
+li {
+	list-style: none;
+}
+a{
+ 	text-decoration: none;
+ 	display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+ 	margin: 0px;
+}
+.owl-dot:focus {
+	outline: none !important;
+}
+button:focus {
+	outline: none;
+}
+
+	  /************************/
+	 /****** Default CSS *****/
+	/************************/
+
+p{
+	color:#383838;
+	font-size: 1.8rem;
+}
+h1{
+	color:#383838;
+	font-size: 6.4rem;
+	font-weight: 800;
+}
+h2{
+	color:#e4e4e4;
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+h3{
+	color:#383838;
+	font-size: 2.6rem;
+	font-weight: 500;
+}	
+
+.btn-sty-1 {
+	color: #8a8a8a;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	font-weight: 800;
+	padding: .5rem 1rem;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.btn-sty-1:hover{
+	background:#00a99d;
+	color:#fff; 
+	border-color: transparent;
+}
+.btn-sty-2 {
+	font-size: 1.3rem;
+	color: #606060;
+	text-transform: uppercase;
+	background: #e4e4e4;
+	padding: 1rem;
+	font-weight: 800;
+	border-radius: 4px;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.btn-sty-2:hover{
+	color:#00a99d;
+}
+.btn-sty-3 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	color: #e4e4e4;
+	padding: 1rem;
+	background: #00a99d;
+	font-weight: 800;
+	border-radius: 4px;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.btn-sty-3:hover{
+	background: #383838;
+	color: #e4e4e4;
+}
+.nav-icon {
+	font-size: 2rem;
+	color:#383838;
+	padding: 3px 10px;
+	border: 1px solid #00a99d;
+	border-radius: 4px;
+	display: none;
+	-webkit-transition: 1s ;
+	-o-transition: 1s ;
+	transition: 1s ;
+}
+	  /********************************/
+	 /****** 1.Header CSS Start ******/
+	/********************************/
+
+.header-area{
+	background: url(../images/header-bnr.jpg) no-repeat scroll 0 0 / 100% 100%;
+	position: relative;
+	z-index: 1;
+}
+.header-area::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #8a8a8abf;
+	z-index: -1;
+}
+.header-details {
+	padding: 20rem 5rem;
+}
+.header-details p {
+	text-align: center;
+}
+.header-details h2 {
+	background: #333333;
+	padding: .5rem;
+	border-radius: .4rem;
+	display: inline-block;
+}
+.header-details h2 span{
+	color:#00a99d;
+}
+
+.header-content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 3rem;
+}
+.header-content img {
+	width: 23%;
+	height: 100%;
+}
+.header-content h3 {
+	padding: 0 2.4rem;
+	font-weight: 800;
+}
+.header-content h3 span{
+	color:#00a99d;
+}
+.header-scroll {
+	text-align: center;
+	padding-top: 3rem;
+}
+
+	  /*******************************/
+	 /******* 1.Header CSS End ******/
+	/*******************************/
+
+
+
+
+	  /*******************************/
+	 /******* 2.Menu CSS Start ******/
+	/*******************************/
+.header-menu-area {
+	padding: 2rem 0;
+	background: #f9f9f9;
+}
+.header-menu ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: end;
+}
+.header-menu ul li a {
+	font-size: 1.4rem;
+	font-weight: 800;
+	color: #606060;
+	text-transform: uppercase;
+	margin-left: 3rem;
+	padding: .5rem .7rem;
+	border-radius: 5px;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.header-menu ul li a:hover{
+	background: #00a99d;
+	color:#fff;
+}
+.header-menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: end;
+}
+
+.header-menu .fas.fa-search {
+	font-size: 1.4rem;
+	-webkit-transform: rotate(90deg);
+	    -ms-transform: rotate(90deg);
+	        transform: rotate(90deg);
+	margin-left: 3rem;
+	color:#00a99d;
+}
+
+
+
+	  /*****************************/
+	 /******* 2.Menu CSS End ******/
+	/*****************************/
+
+
+
+
+
+
+	  /*****************************/
+	 /***** 3.Offer CSS Start *****/
+	/*****************************/
+.offer-area{
+	background: #f9f9f9;
+	padding: 6rem 0;
+}
+.section-top {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.section-top img {
+	width: 20%;
+	height: 100%;
+	margin: 0 auto;
+}
+.section-top h3{
+	font-weight: 800;
+	text-transform: uppercase;
+	padding: 0 2rem;
+}
+.section-top h3 span{
+	color:#00a99d;
+}
+.price-area p,
+.team-area p,
+.work-area p,
+.offer-area p {
+	color: #8a8a8a;
+	font-size: 1.6rem;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+hr {
+	margin: 0;
+	height: 2px !important;
+}
+
+.offer-content {
+	text-align: center;
+}
+
+.offer-icon a i {
+	font-size: 3rem;
+	color: #fff;
+	background:#383838;
+	height: 9rem;
+	width: 9rem;
+	border-radius: 9rem;
+	line-height: 9rem;
+}
+.offer-content h2 {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	color: #606060;
+	font-weight: 800;
+	margin: 2rem 0 1rem 0;
+}
+
+.offer-content h3 {
+	color: #7a7a7a;
+	font-size: 1.4rem;
+	line-height: 25px;
+}
+
+.offer-btn {
+	padding: 2rem 0;
+}
+
+.bottom-key i {
+	font-size: 2rem;
+	color:#fff;
+	-webkit-transform: rotate(137deg);
+	    -ms-transform: rotate(137deg);
+	        transform: rotate(137deg);
+}
+.bottom-key {
+	width: 4rem;
+	height: 4rem;
+	background: #00a99d;
+	margin: auto;
+	line-height: 5rem;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	text-align: center;
+	border-radius: 4px;
+}
+.offer-bottom {
+	-webkit-transform: translatey(80px);
+	    -ms-transform: translatey(80px);
+	        transform: translatey(80px);
+}
+
+
+	  /*****************************/
+	 /******* 3.Offer CSS End *****/
+	/*****************************/
+
+
+
+
+
+
+	  /*********************************/
+	 /******* 4.Fretures CSS Start*****/
+	/*********************************/
+.fretures-area{
+	background: #383838;
+}
+.section-up h3 {
+	color: #e4e4e4;
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin: 0 3rem;
+}
+.section-up h3 span{
+	color:#00a99d;
+}
+.section-up {
+	padding-top: 7rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.section-up img {
+	width: 2%;
+	height: 1%;
+}
+.company-area h4,
+.skill-area h4,
+.fretures-area h4{
+	color:#606060;
+	font-size: 1.6rem;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 1rem;
+}
+.features-content p{
+	color:#606060;
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+
+.features-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 5rem 0;
+}
+
+.features-icon i {
+	font-size: 3rem;
+	margin-right: 3rem;
+	color:#00a99d ;
+}
+.features-content h2{
+	color:#e4e4e4;
+	font-size: 1.6rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+.phone-area {
+	width: 100%;
+	height: auto;
+}
+
+.phone-area img{
+	width: 100%;
+	height: 100%;
+	-o-object-fit:cover;
+	   object-fit:cover; 
+}
+
+
+      /********************************/
+	 /******* 4.Fretures CSS End *****/
+	/********************************/
+
+
+
+
+      /******************************/
+	 /******* 5.Item CSS Start *****/
+	/******************************/
+
+
+.item-area {
+	background: #f9f9f9;
+	padding-top: 7rem;
+}
+.item-icon {
+	position: relative;
+	margin-right: 3rem;
+}
+
+.item-icon i {
+	font-size: 1.8rem;
+	background: #404040;
+	color: #fff;
+	padding: .5rem;
+	width: 4rem;
+	height: 5rem;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 35px;
+}
+.item-clip-path {
+	-webkit-clip-path: polygon(50% 46%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+	        clip-path: polygon(50% 46%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+	height: 37px;
+	width: 40px;
+	background: #00a99d;
+	position: absolute;
+	top: 30px;
+}
+.item-single {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 5rem;
+}
+
+.item-content h2 {
+	color: #606060;
+	font-size: 1.4rem;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.item-single:hover i{
+	background: #00a99d;
+}
+.item-single:hover .item-clip-path{
+	background: #404040;
+}
+.item-content p{
+	color:#aaaaaa;
+	font-size: 1rem;
+	font-weight: 500;
+	margin: .5rem 0 1.5rem 0;
+}
+.item-content h3{
+	color:#7a7a7a;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 25px;
+}
+.bottom-icon i {
+	font-size: 2rem;
+	color: #fff;
+	-webkit-transform: rotate(-45deg);
+	    -ms-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+}
+.bottom-icon {
+	width: 4rem;
+	height: 4rem;
+	background:#00a99d;
+	margin: auto;
+	line-height: 5rem;
+	text-align: center;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	border-radius: 4px;
+}
+.item-bottom {
+	-webkit-transform: translateY(20px);
+	    -ms-transform: translateY(20px);
+	        transform: translateY(20px);
+}
+
+	
+      /******************************/
+	 /******* 5.Item CSS End *******/
+	/******************************/
+
+
+
+	  /******************************/
+	 /****** 6.Skill CSS Start *****/
+	/******************************/
+.skill-area{
+	background: #383838;
+}
+.skill-item {
+	text-align: center;
+	padding: 5rem 0;
+}
+.skill-item h1{
+	color:#8a8a8a;
+	font-size: 1.4rem;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+
+
+	  /******************************/
+	 /****** 6.Skill CSS End *******/
+	/******************************/
+
+
+
+	  /******************************/
+	 /***** 7.Work CSS Start *******/
+	/******************************/
+.work-area{
+	padding: 5rem 0;
+	background: #f9f9f9;
+}
+
+.work-items{
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 1fr .1rem 1fr .1rem 1fr .1rem 1fr .1rem 1fr .1rem 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+	grid-gap: .1rem;
+	padding: 4rem 0;
+}
+
+.work-img{
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+.work-img img{
+	width: 100%;
+	height: 100%;
+}
+.work-single-item{
+	overflow: hidden;
+	border-radius: 4px;
+}
+.work-overly{
+	position: absolute;
+	top:-100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,169,156,.8);
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.work-single-item:hover .work-overly{
+	top:0;
+}
+.icons {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding-top: 3rem;
+}
+.work-icon{
+	width: 4rem;
+	height: 4rem;
+	background:#e4e4e4;
+	color:#00a99d;
+	line-height: 4rem;
+	text-align: center;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	border-radius: 4px;
+}
+.work-icons{
+	width: 4rem;
+	height: 4rem;
+	background:#383838;
+	color:#fff;
+	line-height: 4rem;
+	text-align: center;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	border-radius: 4px;
+}
+.work-icon i {
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	font-size: 1.5rem;
+	color:#00a99d;
+}	
+.work-icons i {
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	font-size: 1.5rem;
+	color:#e4e4e4;
+}	
+.work-icon ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.work-content{
+	text-align: center;
+	padding: 4rem 0;
+
+}
+.work-content h2{
+	color: #e4e4e4;
+	font-size: 1.6rem;
+	font-weight: 800;
+}
+.work-content h3 {
+	color: #e4e4e4;
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin: .5rem 0;
+}
+.work-content ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.work-content ul li {
+	margin:0 .5rem;
+	font-size: 1.2rem;
+	color:#e4e4e4;
+}
+
+.work-bottom a {
+	font-size: 1.3rem;
+	color: #e4e4e4;
+	text-align: center;
+	text-transform: uppercase;
+	background: #00a99d;
+	padding: 1rem 0;
+	font-weight: 800;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.work-last {
+	-webkit-transform: translateY(70px);
+	    -ms-transform: translateY(70px);
+	        transform: translateY(70px);
+}
+
+	  /******************************/
+	 /****** 7.Work CSS End ********/
+	/******************************/
+
+
+
+
+	  /******************************/
+	 /**** 8.Company CSS Start *****/
+	/******************************/
+.company-area {
+	background: #383838;
+	padding-bottom: 5rem;
+}
+.company-items {
+	padding: 3rem 0;
+
+}
+.company-items:hover .company-items-up span{
+	background:#00a99d;
+}
+.company-items-up span {
+	display: block;
+	background:#484848;
+	height: 6px;
+	width: 6px;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.company-items-up {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.company-items-up h2 {
+	color: #e4e4e4;
+	font-size: 8rem;
+	font-weight: 500;
+	margin: 0 1rem;
+}
+.company-items-down {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.company-items-down span {
+	margin: 0;
+	height: 2px !important;
+	background: #606060;
+	width: 40%;
+	display: block;
+}
+.company-items-down i {
+	font-size: 3rem;
+	color: #00a99d;
+	margin: 0 1rem;
+}
+
+.company-items p{
+	font-size: 1.4rem;
+	color: #606060;
+	font-weight: 800;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 2rem;	
+}
+
+	  /******************************/
+	 /***** 8.Company CSS End ******/
+	/******************************/
+
+
+	  /*****************************/
+	 /***** 9.Hero CSS Start ******/
+	/*****************************/
+.hero-area{
+	background: #00a99d;
+}
+.hero-left h2 {
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #e4e4e4;
+	font-size: 1.6rem;
+	padding: 3rem 0;
+}
+.hero-right a {
+	margin: 0 .5rem;
+}
+.hero-right {
+	text-align: end;
+}
+
+
+	  /******************************/
+	 /****** 9.Hero CSS End ********/
+	/******************************/
+
+
+	  /******************************/
+	 /**** 10.Team CSS Start *******/
+	/******************************/
+
+.team-area{
+	background: #f9f9f9;
+	padding: 5rem 0;
+}
+.team-img{
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+
+.team-img img{
+	width: 100%;
+	height:100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+.team-overly{
+	position: absolute;
+	top:-100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,169,156,.8);
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.team-single-item:hover .btn-sty-3{
+	background:#383838;
+	color:#FFF;
+}
+.team-single-item:hover .team-overly{
+	top:0;
+}
+
+.team-icons {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 100%;
+	height: 100%;
+}
+.team-icon {
+	width: 3rem;
+	height: 3rem;
+	background: #e4e4e4;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	line-height: 4rem;
+	text-align: center;
+	border-radius: 4px;
+}
+.team-icon li a i {
+	font-size: 2rem;
+	-webkit-transform: rotate(-45deg);
+	    -ms-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+	color:#00a99d;
+}
+
+.team-content {
+	text-align: center;
+}
+
+.team-single-item{
+	position: relative;
+}
+
+.team-bottom {
+	text-align: center;
+	-webkit-transform: translatey(-20px);
+	    -ms-transform: translatey(-20px);
+	        transform: translatey(-20px);
+}
+
+.team-content h2{
+	color:#606060;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.team-content {
+	padding: 0 2rem;
+	border:1px solid #aaaaaa;
+	border-top:1px solid transparent;
+}
+.team-content .ss {
+	padding: 1rem 0;
+}
+.team-content hr {
+	margin: 3rem 0;
+	height: 1px !important;
+	width: 60%;
+	margin: 2rem auto;
+}
+.team-content span,
+.team-content a i {
+	color: #aaaa;
+	font-size: 1.3rem;
+	margin-right: .5rem;
+}
+.team-items{
+	margin-top: 4rem;
+
+}
+.team-items.owl-carousel .owl-nav button.owl-prev{
+	font-size: 3rem !important;
+	position: absolute;
+	top: -27%;
+	left: 0;
+	background: #383838 !important;
+	width: 3rem;
+	height: 3rem;
+	color: #fff !important;
+	line-height: 3rem !important;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.team-items.owl-carousel .owl-nav button.owl-next{
+	font-size: 3rem !important;
+	position: absolute;
+	top: -27%;
+	right: 0;
+	background: #383838 !important;
+	width: 3rem;
+	height: 3rem;
+	color: #fff !important;
+	line-height: 3rem !important;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+
+.team-items.owl-carousel .owl-nav button.owl-next:hover,
+.team-items.owl-carousel .owl-nav button.owl-prev:hover{
+	background:#00a99d !important;
+	color:#e4e4e4 !important; 
+}
+
+.teams-icon {
+
+	width: 4rem;
+	height: 4rem;
+	background: #383838;
+	text-align: center;
+	line-height: 4rem;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	border-radius: 4px;
+	margin: auto;
+}
+.teams-icon i {
+	color: #fff;
+	-webkit-transform: rotate(-45deg);
+	    -ms-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+}
+.teams-icons {
+	-webkit-transform: translateY(70px);
+	    -ms-transform: translateY(70px);
+	        transform: translateY(70px);
+}
+
+	  /******************************/
+	 /****** 10.Team CSS End *******/
+	/******************************/
+
+
+
+
+	  /******************************/
+	 /****** 11.Testi CSS End *******/
+	/******************************/
+
+.testi-area{
+	background:#00a99d;
+	padding: 5rem 0; 
+}	
+.testi-single-item {
+	text-align: center;
+}
+
+.testi-single-item p {
+	color: #e4e4e4;
+	font-size: 2rem;
+	font-weight: 500;
+	padding: 3rem 0;
+}
+.testimonials-area.owl-carousel .owl-nav button.owl-next,
+.testimonials-area.owl-carousel .owl-nav button.owl-prev{
+	font-size: 3rem !important;
+	background: #383838 !important;
+	width: 3rem;
+	height: 3rem;
+	color: #fff !important;
+	line-height: 3rem !important;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+.testimonials-area.owl-carousel .owl-nav button.owl-next:hover, 
+.testimonials-area.owl-carousel .owl-nav button.owl-prev:hover {
+	background:#e4e4e4!important;
+	color: #00a99d !important;
+}
+
+	  /******************************/
+	 /****** 11.Testi CSS End ******/
+	/******************************/
+
+
+
+	  /******************************/
+	 /****** 12.Client CSS End *****/
+	/******************************/
+.client-area{
+	background: #383838;
+}
+.client-item {
+	padding: 4rem 0 3rem 0;
+}
+
+.client-single-item ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.client-single-item ul li {
+	background:#363636;
+	padding: 3rem 2rem;
+	margin: 0 2rem;
+	height: 144px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.client-single-item{
+	position: relative;
+}
+.client.owl-carousel .owl-nav button.owl-prev {
+	font-size: 3rem !important;
+	color: #00a99d !important;
+	line-height: 3rem !important;
+	width: 3rem;
+	height: 3rem;
+	top: 35%;
+	background: #e4e4e4 !important;
+	position: absolute;
+	left: -3%;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.client.owl-carousel .owl-nav button.owl-next {
+	font-size: 3rem !important;
+	color: #00a99d !important;
+	line-height: 3rem !important;
+	width: 3rem;
+	height: 3rem;
+	top: 35%;
+	background: #e4e4e4 !important;
+	position: absolute;
+	right: -3%;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.client.owl-carousel .owl-nav button.owl-prev:hover,
+.client.owl-carousel .owl-nav button.owl-next:hover{
+	color: #e4e4e4 !important;
+	background: #00a99d !important;
+}
+
+
+
+	  /******************************/
+	 /****** 12.Client CSS End *****/
+	/******************************/
+
+
+
+
+	  /******************************/
+	 /****** 13.Client CSS End *****/
+	/******************************/
+.price-area{
+	background: #f9f9f9;
+	padding: 5rem 0;
+}
+.price-area p{
+	padding-bottom: 5rem;
+}
+.price-content ul li b {
+	width: 1rem;
+	height: 1rem;
+	background:#383838;
+	display: block;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	border-radius: 3px;
+}
+.price-item {
+	text-align: center;
+	padding: 0rem 2rem 2rem 2rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+}
+.price-btn-1 {
+	-webkit-transform: translateY(-21px);
+	    -ms-transform: translateY(-21px);
+	        transform: translateY(-21px);
+}
+.price-content ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.price-content ul li {
+	color: #8a8a8a;
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin: 0 .5rem;
+}
+.price-content ul li span{
+	color:#383838;
+	font-weight: 800;
+	font-size: 6rem; 
+}
+.price-content ul li sup{
+	color:#383838;
+	font-weight: 800;
+	font-size: 1.6rem; 
+}
+
+.price-item hr {
+	margin: 0;
+	height: 1.5px !important;
+	color: #ceb7b7de !important;
+	margin-top: 2rem;
+}
+.price-details h3{
+	color: #8a8a8a;
+	font-size: 1.4rem;
+	font-weight: 500;
+	margin-top: 2rem;
+}
+.price-btn-2 {
+	margin-top: 2rem;
+}
+	  /******************************/
+	 /****** 13.Client CSS End *****/
+	/******************************/
+
+
+
+	  /**********************************/
+	 /****** 14.Purchase CSS Start *****/
+	/**********************************/
+
+.purchase-area{
+	background: url(../images/purchase-bnr.jpg) no-repeat scroll 0 0 / 100% 100%;
+	padding: 5rem 0;
+	position: relative;
+	z-index: 1;
+}
+.purchase-area:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top:0;
+	background:rgba(138,138,138,.7);
+	z-index: -1;
+}
+
+.purchase-items {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.purchase-item h2{
+	font-weight: 800;
+	font-size: 2rem;
+	color:#383838;
+}
+.purchase-item h2 span{
+	color:  #00a99d;
+}
+
+	  /*********************************/
+	 /******* 14.Purchase CSS End *****/
+	/*********************************/
+
+
+
+
+	  /*********************************/
+	 /******* 15.Logo CSS Start *****/
+	/*********************************/
+
+
+
+.logo-area{
+	background: #383838;
+	padding: 3rem 0 4rem 0;
+}
+
+.logo-area-title {
+	text-align: center;
+}
+
+.logo-icon ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.logo-icon {
+	padding-top: 4rem;
+}
+.logo-icon ul li a {
+	font-size: 1.6rem;
+	color: #e4e4e4;
+	padding: .5rem 1rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	margin: 0 .5rem;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.logo-icon ul li a:hover{
+	background:  #00a99d;
+	color:#e4e4e4;
+	border: 1px solid transparent;
+}
+
+
+
+	  /*********************************/
+	 /********* 15.Logo CSS End *******/
+	/*********************************/
+
+
+	 /**********************************/
+	/********* 16.Map CSS Start *******/
+   /**********************************/
+.maps{
+	position: relative;
+}
+.maps iframe{
+	width: 100%;
+}
+.form-area {
+	width: 30%;
+	height: auto;
+	padding: 2rem;
+	background: #f9f9f9;
+	border: 1px solid #cecece;
+	border-radius: 5px;
+	position: absolute;
+	top:10%;
+	left: 20%;
+	z-index: 99999;
+}
+.form-area textarea,
+.form-area input {
+	width: 100%;
+	padding: 1rem 2rem;
+	border: 1px solid #cecece;
+	border-radius: 4px;
+	margin-bottom: 2rem;
+	font-size: 1.4rem;
+	color: #8a8a8a;
+	font-weight: 500;
+}
+
+.form-btn .btn-sty-3 {
+	width: 100%;
+	text-align: center;
+}
+     /**********************************/
+	/********* 16.Map CSS End *******/
+   /**********************************/
+
+
+
+
+     /**********************************/
+	/******** 17.Footer CSS Start *****/
+   /**********************************/
+
+.footer-area{
+	background:#333333;
+	padding: 0 0 3rem 0 ;
+}
+
+.footer-area h2 {
+	color: #cccccc;
+	font-size: 1.4rem;
+	font-weight: 800;
+	text-align: center;
+}
+.footer-icons {
+	width: 4rem;
+	height: 4rem;
+	color: #fff;
+	background:  #00a99d;
+	text-align: center;
+	line-height: 6rem;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	border-radius: 4px;
+	margin: 0 auto;
+}
+.footer-icon {
+	-webkit-transform: translateY(-20px);
+	    -ms-transform: translateY(-20px);
+	        transform: translateY(-20px);
+}
+.footer-icons i  {
+	font-size: 3rem;
+	color:#FFF;
+	-webkit-transform: rotate(-45deg);
+	    -ms-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+}
+.FixedHeader{
+	position: fixed;
+	z-index: 999999;
+	top:0;
+	left: 0;
+	width: 100%;
+}
+
+
+     /**********************************/
+	/******* 17.Footer CSS Start ******/
+   /**********************************/
